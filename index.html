@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ansh AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <button id="menu">☰</button>
+    <h2>🤖 Ansh AI</h2>
+    <button id="newChat">＋</button>
+  </header>
+
+  <main id="chat">
+    <div class="welcome">
+      <h1>नमस्ते! 👋</h1>
+      <h2>मैं Ansh AI हूँ</h2>
+      <p>आज मैं आपकी क्या मदद कर सकता हूँ?</p>
+    </div>
+  </main>
+
+  <div class="suggestions">
+    <button onclick="ask('एक कहानी सुनाओ')">📖 कहानी सुनाओ</button>
+    <button onclick="ask('मुझे पढ़ाई में मदद करो')">📚 पढ़ाई</button>
+    <button onclick="ask('मुझे कोडिंग सिखाओ')">💻 कोडिंग</button>
+  </div>
+
+  <footer>
+    <input id="message" placeholder="Ansh AI से कुछ पूछें...">
+    <button id="send">➤</button>
+  </footer>
+  <p class="note">Ansh AI गलतियाँ कर सकता है। जवाब जाँच लें।</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
